@@ -85,8 +85,11 @@ iframe {
     height: 1000px;
 }
 #img1 {
-  
+    width: 500px;
+    height: 500px;
 }
 .button1 {
-  
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
 }
