@@ -33,10 +33,8 @@ color: black;
 }
 navbar {
 background-color: yellow;
-width: auto;
-height: 100px;
+position: sticky;
 font-size: 20px;
-z-index: 90;
 }
 .text {
   font-size: 50px;
