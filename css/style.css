@@ -39,8 +39,6 @@ navbar {
 background-color: yellow;
 width: auto;
 height: 100px;
-position: sticky;
-top: 0;
 font-size: 20px;
 z-index: 90;
 }
