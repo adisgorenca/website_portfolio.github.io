@@ -32,14 +32,10 @@ margin-right: 25%;
 padding-left: 100px;
 padding-right: 100px;
 }
-#navbar a {
+navbar a {
 color: black;
 }
-#navbar h1 {
-padding-top: 10px;
-margin: 0;
-}
-#navbar {
+navbar {
 background-color: yellow;
 width: auto;
 height: 100px;
@@ -47,22 +43,6 @@ position: sticky;
 top: 0;
 font-size: 20px;
 z-index: 90;
-}
-#margin-l {
-background-color: lightgray;
-width: 100px;
-height: 1000px;
-position: fixed;
-top: 0;
-left: 0;
-}
-#margin-r {
-background-color: lightgray;
-width: 100px;
-height: 1000px;
-position: fixed;
-top: 0;
-right: 0;
 }
 .text {
   font-size: 50px;
