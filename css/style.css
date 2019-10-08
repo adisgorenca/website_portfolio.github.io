@@ -28,10 +28,10 @@ margin-right: 25%;
   87.5%  {background-color: violet;}
   100% {background-color: red;}
 }
-navbar a {
+.navbar a {
 color: black;
 }
-navbar {
+.navbar {
 background-color: yellow;
 position: sticky;
 font-size: 20px;
