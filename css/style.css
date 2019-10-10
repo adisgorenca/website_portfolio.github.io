@@ -6,6 +6,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .jsbutton1 {
   width: 200px;
   height: 100px;
@@ -41,6 +45,20 @@ html {
   100% {background-color: red;}
 }
 #jsimg1 {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
+}
+#sec-title {
+  background-image: url("");
+  width: 100%;
+}
+#sec-website {
+  background-color: ;
+}
+#sec-end {
+  background-image: url("");
+  width: 100%;  
+}
+#sec-button {
+  background-color: ; 
 }
