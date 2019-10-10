@@ -11,6 +11,9 @@ section {
   margin-left: 10%;
   margin-right: 10%;
 }
+a img {
+  width: 100%; 
+}
 .jsbutton1 {
   width: 200px;
   height: 100px;
