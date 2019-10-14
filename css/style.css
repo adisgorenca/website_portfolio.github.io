@@ -1,21 +1,46 @@
 body {
   text-align: center;
   font-family: Century;
-  margin: 0;
+  color: white;
+  background-color: silver;
 }
 html {
   scroll-behavior: smooth;
 }
 section {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
+  padding: 5px 10% 5px 10%;
 }
 a img {
-  width: 100%; 
+  width: 100%;
   border-style: solid;
-  border-color: black;
+  border-color: darkgray;
   border-width: 5px;
+}
+nav {
+    position: sticky;
+    padding-left: 5px;
+}
+.nav li:hover {
+  text-decoration: underline;
+}
+li a:hover {
+  background-color: black !important;
+  color: yellow !important;
+}
+.dropdown-menu li {
+  color: black;
+  background-color: yellow;
+  font-size: 20px;
+}
+.dropdown-menu {
+  padding: 0;
+}
+.active {
+  text-decoration: underline;
+}
+.container-fluid {
+  padding: 0;
 }
 .jsbutton1 {
   width: 200px;
@@ -28,11 +53,9 @@ a img {
 .navbar {
   background-color: yellow;
   font-size: 20px;
-  position: sticky;
 }
 #button {
   font-size: 100px;
-  color: white;
   width: 50%;
   border-radius: 30px;
   padding: 10px;
@@ -56,16 +79,17 @@ a img {
   height: 500px;
 }
 #sec-title {
-  background-image: url("");
-  width: 100%;
+  background-image: url("img/background1.jpg");
 }
 #sec-website {
-  background-color: ;
+  background-color: black;
+}
+#sec-end img {
+  width: 100%;
 }
 #sec-end {
-  background-image: url("");
-  width: 100%;  
+  padding: 0;
 }
 #sec-button {
-  background-color: ; 
+  background-color: black;
 }
