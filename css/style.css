@@ -3,6 +3,7 @@ body {
   font-family: Century;
   color: white;
   background-color: silver;
+
 }
 html {
   scroll-behavior: smooth;
@@ -53,6 +54,7 @@ li a:hover {
 .navbar {
   background-color: yellow;
   font-size: 20px;
+  margin: 0;
 }
 #button {
   font-size: 100px;
@@ -79,7 +81,9 @@ li a:hover {
   height: 500px;
 }
 #sec-title {
-  background-image: url("img/background1.jpg");
+  background-image: url("../img/background1.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 #sec-website {
   background-color: black;
