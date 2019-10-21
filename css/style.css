@@ -82,6 +82,11 @@ li a:hover {
   width: 500px;
   height: 500px;
 }
+#sec-title h4 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 #sec-title {
   background-image: url("../img/background1.jpg") !important;
   background-repeat: no-repeat;
