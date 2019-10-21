@@ -2,25 +2,29 @@ body {
   text-align: center;
   font-family: Century;
   color: white;
-  background-color: silver;
-
+  background-color: yellow;
 }
 html {
   scroll-behavior: smooth;
 }
 section {
   width: 100%;
-  padding: 5px 10% 5px 10%;
+  padding: 20px 10% 20px 10%;
 }
 a img {
   width: 100%;
   border-style: solid;
-  border-color: darkgray;
+  border-color: yellow;
   border-width: 5px;
 }
 nav {
-    position: sticky;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100;
     padding-left: 5px;
+    border-radius: 0px !important;
+    background-color: yellow;
+    font-size: 20px;
 }
 .nav li:hover {
   text-decoration: underline;
@@ -52,8 +56,6 @@ li a:hover {
   color: black;
 }
 .navbar {
-  background-color: yellow;
-  font-size: 20px;
   margin: 0;
 }
 #button {
@@ -88,12 +90,12 @@ li a:hover {
 #sec-website {
   background-color: black;
 }
-#sec-end img {
-  width: 100%;
-}
 #sec-end {
-  padding: 0;
+  background-image: url("../img/background2.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 #sec-button {
   background-color: black;
 }
+
