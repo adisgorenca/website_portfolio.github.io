@@ -97,7 +97,8 @@ li a:hover {
   width: 500px;
   height: 500px;
 }
-#sec-title h4 {
+#sec-about h4 {
+  font-family: double;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
@@ -106,6 +107,9 @@ li a:hover {
   background-image: url("../img/background1.jpg") !important;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+#sec-about{
+  background-color: black;
 }
 #sec-website {
   background-color: black;
