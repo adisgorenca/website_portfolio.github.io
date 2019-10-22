@@ -11,8 +11,10 @@ section {
   width: 100%;
   padding: 20px 10% 20px 10%;
 }
-a img {
+img {
   width: 100%;
+}
+a img {
   border-style: solid;
   border-color: yellow;
   border-width: 5px;
@@ -25,6 +27,19 @@ nav {
     border-radius: 0px !important;
     background-color: yellow;
     font-size: 20px;
+}
+{font-size: 200%; didnt work with h1, h2, h3}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 44px;
+}
+h3 {
+  font-size: 36px;
+}
+h4, p {
+  font-size: 200%;
 }
 .nav li:hover {
   text-decoration: underline;
