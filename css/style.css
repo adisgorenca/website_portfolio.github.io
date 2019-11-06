@@ -86,7 +86,7 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.sec-website-button, #sec-title-button {
+.sec-website-button, #sec-title-button, #MyClockDisplay {
   border-style: solid;
   border-color: black;
   border-width: 2px;
