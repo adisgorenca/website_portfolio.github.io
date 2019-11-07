@@ -77,7 +77,7 @@ li a:hover {
   border-color: yellow;
   border-width: 5px;
 }
-.sec-website-button, .clock {
+.sec-website-button {
   font-size: 20px;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -86,7 +86,11 @@ li a:hover {
   position: absolute;
   z-index: 1;
 }
-.sec-website-button, #sec-title-button, .clock {
+.jsbutton1 {
+  font-size: 20px;
+  border-radius: 10px;
+}
+.sec-website-button, #sec-title-button, .clock, .jsbutton1 {
   border-style: solid;
   border-color: black;
   border-width: 2px;
@@ -94,17 +98,12 @@ li a:hover {
   color: black;
   background-color: yellow;
 }
-#sec-title-button {
+#sec-title-button, .clock {
   font-size: 50px;
   width: 30%;
   border-radius: 30px;
   margin-left: 35%;
   margin-right: 35%;
-}
-.jsbutton1 {
-  width: 200px;
-  height: 100px;
-  background-color: yellow;
 }
 .navbar a {
   color: black;
@@ -133,26 +132,30 @@ li a:hover {
   100% {background-color: red;}
 }
 #jsimg1 {
-  width: 500px;
-  height: 500px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 5px;
 }
 #sec-about h4 {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
 }
-#sec-title {
+.sec-title {
   background-image: url("../img/background1.jpg") !important;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-#sec-title h1 {
+.sec-title h1 {
   font-size: 96px;
 }
-#sec-title h3 {
+.sec-title h3 {
   font-size: 72px;
 }
-#sec-about, #sec-website, #sec-button {
+#sec-about, #sec-website, #sec-button, #sec-javascript, #sec-clock {
   background-color: black;
 }
 #sec-end {
