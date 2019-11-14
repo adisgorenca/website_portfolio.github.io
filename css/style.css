@@ -100,10 +100,17 @@ li a:hover {
 }
 #sec-title-button, .clock {
   font-size: 50px;
-  width: 30%;
   border-radius: 30px;
+}
+#sec-title-button {
+  width: 30%;
   margin-left: 35%;
   margin-right: 35%;
+}
+.clock {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .navbar a {
   color: black;
