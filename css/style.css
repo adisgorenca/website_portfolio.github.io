@@ -93,20 +93,13 @@ li a:hover {
   font-size: 20px;
   border-radius: 10px;
 }
-.sec-website-button, #sec-title-button, .clock, .jsbutton1, #tip-calc {
+.sec-website-button, #sec-title-button, .clock, .jsbutton1 {
   border-style: solid;
   border-color: black;
   border-width: 2px;
   padding: 10px;
   color: black;
   background-color: yellow;
-}
-#tip-calc {
-  border-radius: 30px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-color: yellow !important;
-  overflow: auto;
 }
 #sec-title-button, .clock {
   font-size: 50px;
@@ -168,7 +161,15 @@ li a:hover {
 .sec-title h3 {
   font-size: 72px;
 }
-
+#tip-calc {
+  border-radius: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 2px;
+  overflow: auto;
+}
 #tip-content {
   Background-color: white;
   color: black;
