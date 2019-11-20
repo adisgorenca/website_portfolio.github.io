@@ -79,6 +79,35 @@
                     showTime();
                 </script>
             </section>
+            <br>
+            <section id="sec-tip">
+            <div id="tip-calc">
+                <div>
+                    <h1 class="left-align">Tip Calculator</h1>
+                </div>
+                <div id="tip-content">
+                    <h2 class="left-align">How much was yor bill?</h2>
+                    <form class="left-align" action="/action_page.php" method="get">
+                        $ <input placeholder=" Bill Amount" type="text">
+                    </form>
+                    <h2 class="left-align">How was your service?</h2>
+                    <select>
+                        <option disabled selected>--Choose an Option--</option>
+                        <option>Meh-5% Tip</option>
+                        <option>Okay-10% Tip</option>
+                        <option>Good-15% Tip</option>
+                        <option>Great-20% Tip</option>
+                    </select>
+                    <h2 class="left-align">How many people are sharing the bill?</h2>
+                    <form class="left-align" action="/action_page.php" method="get">
+                        <input placeholder=" Number of People" type="text">people
+                    </form>
+                    <button id="tip-button" type="button" name="button">
+                        <h1>CALCULATE!</h1>
+                    </button>
+                </div>
+            </div>
+          </section>
         </div>
     </body>
 </html>
