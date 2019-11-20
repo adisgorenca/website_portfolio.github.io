@@ -14,6 +14,9 @@ section {
 img {
   width: 100%;
 }
+select, form {
+  font-size: 36px;
+}
 a img {
   filter: blur(4px);
 }
@@ -100,23 +103,19 @@ li a:hover {
 }
 #sec-title-button, .clock {
   font-size: 50px;
-  border-radius: 30px;
-}
-#sec-title-button {
   width: 30%;
+  border-radius: 30px;
   margin-left: 35%;
   margin-right: 35%;
-}
-.clock {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 .navbar a {
   color: black;
 }
 .navbar {
   margin: 0;
+}
+.left-align {
+  
 }
 #hire-me-button {
   font-size: 100px;
@@ -162,7 +161,28 @@ li a:hover {
 .sec-title h3 {
   font-size: 72px;
 }
-#sec-about, #sec-website, #sec-button, #sec-javascript, #sec-clock {
+#tip-calc {
+  border-radius: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 2px;
+  overflow: auto;
+}
+#tip-content {
+  Background-color: white;
+  color: black;
+  padding: 10px;
+}
+#tip-content h2, #tip-content form, #tip-content button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#tip-button {
+  background-color: yellow;
+}
+#sec-about, #sec-website, #sec-button, #sec-javascript, #sec-clock, #sec-tip {
   background-color: black;
 }
 #sec-end {
