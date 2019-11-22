@@ -110,9 +110,9 @@ li a:hover {
 #sec-title-button, .clock {
   font-size: 50px;
   width: 30%;
-  border-radius: 30px;
   margin-left: 35%;
   margin-right: 35%;
+  border-radius: 30px;
 }
 .navbar a {
   color: black;
@@ -121,7 +121,7 @@ li a:hover {
   margin: 0;
 }
 .left-align {
-
+  text-align: left !important;
 }
 #hire-me-button {
   font-size: 100px;
@@ -179,11 +179,11 @@ li a:hover {
 #tip-content {
   Background-color: white;
   color: black;
-  padding: 10px;
+  padding: 20px;
 }
 #tip-content h2, #tip-content form, #tip-content button {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #sec-about, #sec-website, #sec-button, #sec-javascript, #sec-clock, #sec-tip {
   background-color: black;
