@@ -93,7 +93,7 @@ li a:hover {
   font-size: 20px;
   border-radius: 10px;
 }
-.sec-website-button, #sec-title-button, .clock, .jsbutton1, #tip-button {
+.sec-website-button, #sec-title-button, .clock, .jsbutton1, #tipButton {
   border-style: solid;
   border-color: black;
   border-width: 2px;
@@ -101,10 +101,10 @@ li a:hover {
   color: black;
   background-color: yellow;
 }
-#tip-button {
+#tipButton {
   border-radius: 15px;
 }
-#tip-button h1 {
+#tipButton h1 {
   margin: 0;
 }
 #sec-title-button, .clock {
