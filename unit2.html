@@ -106,7 +106,7 @@
                         <h1>CALCULATE!</h1>
                     </button>
                     <div id="answer">
-                        $<span id="cost">0.00</span> each
+                            $<span id="cost">0.00</span><span id="each">each</span>
                     </div>
                 </div>
             </div>
@@ -120,21 +120,21 @@
                     var total = (billAmount * tip) / numberOfPeople;
 
                     //validate input
-                    if (billAmount === "" || billAmount <= .01){
+                    if (billAmount === "" || tip == 1){
                       alert("Please Insert Bill Amount");
                       return;
                     }
 
                     //Check to see if this input is empty or less than or equal to 1
-                    if (numberOfPeople === "" || tip == 1){
-                      numberOfPeople = 1
-                      document.getElementById("cost").style.display = "none";
+                    if (numberOfPeople === "" || numberOfPeople <= 1){
+                      numberOfPeople = 1;
+                      document.getElementById("each").style.display = "none";
                     }
                     else {
-                      document.getElementById("cost").style.display = "none";
+                      document.getElementById("each").style.display = "block";
                     }
                     //round to two decimal places
-
+                    total = total.toFixed(2);
                     //next line allows us to always have two digits after decimal point
 
                     //Display the tip
@@ -145,7 +145,7 @@
                 }
                 //Hide the tip amount on load
                 document.getElementById("answer").style.display = "none";
-                document.getElementById("cost").style.display = "none";
+                document.getElementById("each").style.display = "none";
                 //click to call function
                 document.getElementById("tipButton").onclick = function() {
                 calc();
